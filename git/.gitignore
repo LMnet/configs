@@ -1,0 +1,5 @@
+# To activate this file run this:
+# git config --global core.excludesfile '~/.gitignore'
+*.iml
+target/
+.idea/
