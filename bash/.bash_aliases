@@ -1,2 +1,2 @@
 alias gst='git status'
-alias hgs='hg status'
+alias hst='hg status'
