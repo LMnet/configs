@@ -1,5 +1,12 @@
 # To activate this file run this:
 # git config --global core.excludesfile '~/.gitignore'
+
+# Intellij IDEA
 *.iml
 target/
 .idea/
+
+# Eclipse
+.classpath
+.project
+.settings/
