@@ -13,3 +13,6 @@ target/
 
 # svn
 .svn/
+
+# JRebel
+rebel.xml
