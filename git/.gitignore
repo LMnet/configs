@@ -16,3 +16,8 @@ target/
 
 # JRebel
 rebel.xml
+rebel-remote.xml
+
+# Cisco
+tea-logs/
+xmpCacheContents/
