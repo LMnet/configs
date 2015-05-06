@@ -21,3 +21,6 @@ rebel-remote.xml
 # Cisco
 tea-logs/
 xmpCacheContents/
+
+# Scala
+*.sc
