@@ -1,3 +1,5 @@
+// To activate this file make a symlink:
+// ln -s ~/.configs/sublime-text-3/Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
 {
 	"update_check": false,
 	"always_show_minimap_viewport": true,
@@ -6,10 +8,10 @@
 	"font_size": 11,
 	"ignored_packages":
 	[
-		"Package Control",
 		"Vintage"
 	],
 	"save_on_focus_lost": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true"
+	"word_wrap": "true",
+	"tab_size": 2
 }
