@@ -28,3 +28,5 @@ xmpCacheContents/
 
 # etc
 .ignored/
+*.ignored.*
+*.ignored
