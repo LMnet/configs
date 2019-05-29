@@ -1,5 +1,4 @@
-# To activate this file run this:
-# git config --global core.excludesfile '~/.gitignore'
+# This file will be automatically activated after `./.gitconfig` file activation
 
 # Intellij IDEA
 *.iml

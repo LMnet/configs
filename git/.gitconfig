@@ -3,7 +3,7 @@
 # 	path = ~/.configs/git/.gitconfig
 
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = ~/.configs/git/.gitignore
 	editor = vim
 [merge]
 	tool = meld
