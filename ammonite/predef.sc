@@ -5,10 +5,6 @@
 
 import $plugin.$ivy.`org.typelevel:::kind-projector:0.11.0`
 
-if (!repl.compiler.settings.isScala213) {
-  repl.load.apply("interp.configureCompiler(_.settings.YpartialUnification.value = true)")
-}
-
 interp.configureCompiler(_.settings.Ydelambdafy.tryToSetColon(List("inline")))
 
 object load {
