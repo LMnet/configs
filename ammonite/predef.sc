@@ -7,10 +7,10 @@ import $plugin.$ivy.`org.typelevel:::kind-projector:0.11.0`
 
 interp.configureCompiler(_.settings.Ydelambdafy.tryToSetColon(List("inline")))
 
-object load {
+object importer {
 
   /**
-    * To use fs2 from ammonite repl, type `load.fs2()` from repl prompt.
+    * To use fs2 from ammonite repl, type `importer.fs2()` from repl prompt.
     * You'll get all fs2 & cats imports, ContextShift and Timer instances
     * for IO, and a globalBlocker
     */
@@ -27,4 +27,15 @@ object load {
   }
 
   def fs2 = fs2Version("2.1.0")
+
+  def circe: Unit = {
+    val version ="0.12.3"
+    repl.load.apply(s"""
+      import $$ivy.`io.circe::circe-core:$version`
+      import $$ivy.`io.circe::circe-parser:$version`
+      import $$ivy.`io.circe::circe-generic:$version`
+      import $$ivy.`io.circe::circe-generic-extras:0.12.2`
+      import $$ivy.`io.circe::circe-derivation:0.12.0-M7`
+    """)
+  }
 }
