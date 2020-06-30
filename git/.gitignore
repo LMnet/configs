@@ -22,10 +22,13 @@ tea-logs/
 xmpCacheContents/
 
 # Scala
-*.sc
 *.tmp.scala
 
 # etc
 .ignored/
 *.ignored.*
 *.ignored
+
+.ign/
+*.ign.*
+*.ign
