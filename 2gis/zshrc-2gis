@@ -1,0 +1,13 @@
+# To activate this file add this to the ~/.zshrc file:
+# source ~/.configs/2gis/zshrc-2gis
+
+alias kubectl-choose-production-d1-casino='kubectl config use-context production-d1-casino'
+alias kubectl-choose-production-d1-market='kubectl config use-context production-d1-market'
+alias kubectl-choose-production-m1-casino='kubectl config use-context production-m1-casino'
+alias kubectl-choose-production-m1-market='kubectl config use-context production-m1-market'
+alias kubectl-choose-production-m9-casino='kubectl config use-context production-m9-casino'
+alias kubectl-choose-production-m9-market='kubectl config use-context production-m9-market'
+alias kubectl-choose-production-n3-casino='kubectl config use-context production-n3-casino'
+alias kubectl-choose-production-n3-market='kubectl config use-context production-n3-market'
+alias kubectl-choose-staging-casino='kubectl config use-context staging-casino'
+alias kubectl-choose-staging-market='kubectl config use-context staging-market'
