@@ -1,4 +1,0 @@
-# To activate this file make a symlink:
-# ln -s ~/.configs/sbt/.sbtconfig ~/.sbtconfig
-
-export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -Xmx4G"

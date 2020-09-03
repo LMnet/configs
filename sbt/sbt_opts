@@ -1,0 +1,4 @@
+# To activate this file add this to the ~/.zshrc file:
+# source ~/.configs/sbt/sbt_opts
+
+export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -Xmx4G"
