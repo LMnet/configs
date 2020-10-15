@@ -23,6 +23,7 @@ xmpCacheContents/
 
 # Scala
 *.tmp.scala
+.bsp/
 
 # etc
 .ignored/
