@@ -9,5 +9,12 @@ alias kubectl-choose-production-m9-casino='kubectl config use-context production
 alias kubectl-choose-production-m9-market='kubectl config use-context production-m9-market'
 alias kubectl-choose-production-n3-casino='kubectl config use-context production-n3-casino'
 alias kubectl-choose-production-n3-market='kubectl config use-context production-n3-market'
+alias kubectl-choose-production-n2-market='kubectl config use-context production-n2-market'
 alias kubectl-choose-staging-casino='kubectl config use-context staging-casino'
 alias kubectl-choose-staging-market='kubectl config use-context staging-market'
+
+# The most frequent aliases
+alias k='kubectl'
+alias kn2='kubectl-choose-production-n2-market'
+alias kn3='kubectl-choose-production-n3-market'
+alias kst='kubectl-choose-staging-market'

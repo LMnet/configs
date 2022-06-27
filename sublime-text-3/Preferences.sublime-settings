@@ -1,18 +1,16 @@
-// To activate this file make a symlink:
-// ln -s ~/.configs/sublime-text-3/Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
 {
 	"always_show_minimap_viewport": true,
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"fallback_encoding": "Cyrillic (Windows 1251)",
-	"font_size": 11,
+	"font_size": 12,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"save_on_focus_lost": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false,
-	"word_wrap": "true"
+	"word_wrap": "true",
 }

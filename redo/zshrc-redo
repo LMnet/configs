@@ -1,0 +1,2 @@
+export REDO_HISTORY_PATH=$HISTFILE
+export REDO_EDITOR=vim
