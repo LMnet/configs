@@ -25,3 +25,9 @@ ln -s '~/.configs/sublime-text-3/Pretty JSON.sublime-settings' '~/.config/sublim
 ```
 
 TODO: https://packagecontrol.io/docs/syncing
+
+Other Tools
+===========
+
+* https://github.com/orf/gping
+* Collection of usefult tools
