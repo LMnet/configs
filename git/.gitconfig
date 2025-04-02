@@ -9,6 +9,7 @@
 	tool = meld
 [push]
 	default = simple
+	autoSetupRemote = true
 [alias]
 	ignore = update-index --skip-worktree
 	unignore = update-index --no-skip-worktree
