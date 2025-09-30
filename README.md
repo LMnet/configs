@@ -26,6 +26,15 @@ ln -s '~/.configs/sublime-text-3/Pretty JSON.sublime-settings' '~/.config/sublim
 
 TODO: https://packagecontrol.io/docs/syncing
 
+MacOS
+=====
+
+```
+ln -s ~/.configs/macos/DefaultKeyBinding.dict ~/Library/KeyBindings/DefaultKeyBinding.dict
+```
+
+Also see https://github.com/ttscoff/KeyBindings for examples
+
 Other Tools
 ===========
 
