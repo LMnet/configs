@@ -33,7 +33,9 @@ MacOS
 ln -s ~/.configs/macos/DefaultKeyBinding.dict ~/Library/KeyBindings/DefaultKeyBinding.dict
 ```
 
-Also see https://github.com/ttscoff/KeyBindings for examples
+Also see:
+* https://github.com/ttscoff/KeyBindings for examples
+* https://ss64.com/mac/syntax-keybindings.html for manual about bindings
 
 Other Tools
 ===========
