@@ -14,6 +14,9 @@
 	"update_check": false,
 	"word_wrap": "true",
 	"index_files": true,
+	"hot_exit": true,
+	"remember_open_files": true,
+
 
 	// MacOS specific
 	"gpu_window_buffer": false,

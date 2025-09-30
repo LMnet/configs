@@ -37,6 +37,12 @@ Also see:
 * https://github.com/ttscoff/KeyBindings for examples
 * https://ss64.com/mac/syntax-keybindings.html for manual about bindings
 
+### Must have apps for MacOS to make it usable
+
+* Maccy: clipboard manager
+* AltTab: normal alt-tab
+* Scroll Reverser: to have different scroll types for mouse and trackpad
+
 Other Tools
 ===========
 

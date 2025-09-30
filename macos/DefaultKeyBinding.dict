@@ -1,7 +1,13 @@
 {
     // Remap Home/End
-    "\UF729" = "moveToBeginningOfLine:"; // Home
-    "\UF72B" = "moveToEndOfLine:";       // End
-    "\UF72C" = "pageUp:";                // Page Up
-    "\UF72D" = "pageDown:";              // Page Down
+    "\UF729"  = "moveToBeginningOfLine:";                   // Home
+    "\UF72B"  = "moveToEndOfLine:";                         // End
+    "$\UF729" = "moveToBeginningOfLineAndModifySelection:"; // Shift + Home
+    "$\UF72B" = "moveToEndOfLineAndModifySelection:";       // Shift + End
+
+    // Cmd+Arrow = word navigation
+    "@\UF702"  = "moveWordLeft:";
+    "@\UF703"  = "moveWordRight:";
+    "@$\UF702" = "moveWordLeftAndModifySelection:";
+    "@$\UF703" = "moveWordRightAndModifySelection:";
 }
