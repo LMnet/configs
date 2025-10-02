@@ -16,6 +16,7 @@
 	"index_files": true,
 	"hot_exit": true,
 	"remember_open_files": true,
+	"scroll_past_end": true,
 
 
 	// MacOS specific
