@@ -10,4 +10,11 @@
     "@\UF703"  = "moveWordRight:";
     "@$\UF702" = "moveWordLeftAndModifySelection:";
     "@$\UF703" = "moveWordRightAndModifySelection:";
+
+    // Ctrl+Arrow = line navigation
+    "^\UF702"  = "moveToBeginningOfLine:";
+    "^\UF703"  = "moveToEndOfLine:";
+    "^$\UF702" = "moveToBeginningOfLineAndModifySelection:";
+    "^$\UF703" = "moveToEndOfLineAndModifySelection:";
+
 }
