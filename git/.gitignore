@@ -11,6 +11,9 @@ target/
 .project
 .settings/
 
+# Sublime
+*.sublime-workspace
+
 # svn
 .svn/
 
@@ -26,11 +29,10 @@ xmpCacheContents/
 *.tmp.scala
 .bsp/
 
-# etc
+# Customly ignored files
 .ignored/
 *.ignored.*
 *.ignored
-
 .ign/
 *.ign.*
 *.ign
