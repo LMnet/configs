@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --with pyperclip
 import argparse
 import os
 import subprocess
@@ -77,7 +77,7 @@ def rel_dot_posix(base: Path, path: Path) -> str:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Concatenate file contents with headers; respects .gitignore; clipboard by default."
+        description="Concatenate file contents with headers; respects .gitignore; copies to clipboard by default."
     )
     parser.add_argument("directory", nargs="?", default=".", help="Directory to scan (default: .)")
     parser.add_argument("-d", "--depth", type=int, default=0,
