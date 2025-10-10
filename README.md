@@ -43,6 +43,12 @@ Also see:
 * AltTab: normal alt-tab
 * Scroll Reverser: to have different scroll types for mouse and trackpad
 
+Scripts
+=======
+
+* `gather_files.py`
+  Useful for copying files for LLMs. Makes sense to add an alias `llm-copy` for this script. Requires `uv` and python 3.12+ to run.
+
 Other Tools
 ===========
 

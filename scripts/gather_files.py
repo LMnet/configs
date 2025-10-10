@@ -1,4 +1,4 @@
-#!/usr/bin/env -S uv run --with pyperclip
+#!/usr/bin/env -S uv run --with pyperclip --script
 import argparse
 import os
 import subprocess
