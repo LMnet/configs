@@ -43,6 +43,16 @@ Also see:
 * AltTab: normal alt-tab
 * Scroll Reverser: to have different scroll types for mouse and trackpad
 
+
+### Screen
+
+`screen` utility is useful for running background processes. But on macos the default `Ctrl+A D` combination to leave the current session (detach it and go to the main terminal) conflicts with the Iterm hotkey for select all. For that I created a custom hotkey `Ctrl+B G` (background) in `.screenrc`:
+
+```
+ln -s ~/.configs/macos/screen/.screenrc ~/.screenrc
+```
+
+
 Scripts
 =======
 
