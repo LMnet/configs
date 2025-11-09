@@ -17,9 +17,10 @@
 	"hot_exit": true,
 	"remember_open_files": true,
 	"scroll_past_end": true,
+  "find_selected_text": true,
 
 
 	// MacOS specific
 	"gpu_window_buffer": false,
-  "hardware_acceleration": "none",
+  "hardware_acceleration": "none"
 }
