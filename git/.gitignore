@@ -29,6 +29,9 @@ xmpCacheContents/
 *.tmp.scala
 .bsp/
 
+# MacOS
+.DS_Store
+
 # Customly ignored files
 .ignored/
 *.ignored.*

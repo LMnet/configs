@@ -22,5 +22,5 @@
 
 	// MacOS specific
 	"gpu_window_buffer": false,
-  "hardware_acceleration": "none"
+  "hardware_acceleration": "none",
 }
