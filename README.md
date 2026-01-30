@@ -1,4 +1,4 @@
-zsh
+^:zsh
 ===
 
 oh-my-zsh
@@ -44,13 +44,17 @@ Also see:
 * Scroll Reverser: to have different scroll types for mouse and trackpad
 
 
-### Screen
+### iterm2 key bindings
 
-`screen` utility is useful for running background processes. But on macos the default `ctrl+a d` combination to leave the current session (detach it and go to the main terminal) conflicts with the Iterm hotkey for select all. For that I created a custom hotkey `ctrl+b d` in `.screenrc`:
+In terminal jumping to the start/end of line/word doesn't work.
 
-```
-ln -s ~/.configs/macos/screen/.screenrc ~/.screenrc
-```
+To make them work, go to Settings -> Keys -> Key Bindings and add shortcuts with the action "Send Escape Sequence":
+* For Home: `[H` (jump to the end of the line)
+* For End: `[F` (jump to the begginning of the line)
+* For Ctrl(physical)+Left: `b` (jump to the previous word)
+* For Ctrl(physical)+Right: `f` (jump to the next word)
+
+Plus, Copy/Paste actions are also not convenient. But they can be configured in the same menu. Just use actions "Copy Selection or Send ^C" for copy and "Paste or Send ^V" for paste.
 
 
 Scripts
